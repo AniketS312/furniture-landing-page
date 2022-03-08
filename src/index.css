@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Poppins:wght@300;400&display=swap');
+:root {
+  --logo-font: 'Cormorant Garamond', serif;
+  --text-font: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
 }
+
+*,
+*::before, 
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+

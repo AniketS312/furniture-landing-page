@@ -1,0 +1,65 @@
+.section-four {
+    width: 100%;
+    height: 95vh;
+    background-image: url('../assets/ImageFour.jpg');
+    background-position: center;
+    background-size: cover;
+    transform: scaleX(-1);
+    position: relative;
+}
+
+.section-four .content {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: scaleX(-1);
+    width: 25%;
+    height: 50%;
+}
+
+.section-four .content h2 {
+    font-family: var(--logo-font);
+    font-size: 2.5rem;
+    font-weight: 300;
+} 
+
+.section-four .content p {
+    font-family: var(--text-font);
+    font-size: 500;
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+.section-four .arrow {
+    margin-top: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.section-four .arrow svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.section-four .arrow .background-animation {
+    position: absolute;
+    left: -1%;
+    content: ' ';
+    width: 0%;
+    height: 100%;
+    background-color:rgba(1,105,114, .4);
+    z-index: 10;
+    transition: .5s;
+}
+
+.section-four .arrow a,
+.section-four .arrow svg {
+    z-index: 20;
+}
+
+.section-four .arrow:hover .background-animation {
+    width: 95%;
+}

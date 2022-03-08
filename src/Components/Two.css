@@ -1,0 +1,44 @@
+.section-two {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;
+}
+
+
+
+.section-two .image  img {
+    width: 50vw;
+    height: 100%;    
+}
+
+.section-two .text-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.section-two .text-section img {
+    width: 40%;
+    height: 60%;
+}
+
+.section-two .text-section .content {
+    width: 40%;
+}
+
+.section-two .text-section .content h3 {
+    margin: 1rem 0 .4rem 0;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-family: var(--text-font);
+    text-transform: uppercase;
+}
+
+.section-two .text-section .content p {
+    font-family: var(--text-font);
+    font-size: .8rem;
+}

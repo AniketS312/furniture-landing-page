@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import One from './Components/One'
+import SectionTwoAndThree from './Components/TwoAndThree'
+import Four from './Components/Four'
+import Five from './Components/Five'
 
+// https://www.commesi.com/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <One />
+      <SectionTwoAndThree />
+      <Four />
+      <Five />
     </div>
   );
 }
 
 export default App;
+
+// Create animaton for images
